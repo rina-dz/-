@@ -2,7 +2,7 @@ import './Main.css';
 
 function Main() {
 
-    //linear-gradient(right, #FCB045, #FF3F78);
+
 
     return (
         <section className='main'>
@@ -14,21 +14,27 @@ function Main() {
             <div className='main__gifts-container'>
                 <p className='main__gifts-title'>Вместе с <span className='main__gifts-span'>бесплатной консультацией</span> мы дарим:</p>
                 <div className='main__gift-container'>
-                    <article>
-                    <h3 className='main__gift-title'>Виджеты</h3>
-                    <p className='main__gift-text'>30 готовых решений</p>
+                    <article className='main__flex'>
+                        <span className='main__gift-span'></span>
+                        <h3 className='main__gift-title widgets'>30 виджетов</h3>
+                        <h3 className='main__gift-title widget'>Виджеты</h3>
+                        <p className='main__gift-text'>30 готовых решений</p>
                     </article>
-                    <article>
-                    <h3 className='main__gift-title'>Dashboard</h3>
-                    <p className='main__gift-text'>с показателями вашего бизнеса</p>
+                    <article className='main__flex'>
+                        <span className='main__gift-span'></span>
+                        <h3 className='main__gift-title'>Dashboard</h3>
+                        <p className='main__gift-text'>с показателями вашего бизнеса</p>
                     </article>
-                    <article>
-                    <h3 className='main__gift-title'>Skype Аудит</h3>
-                    <p className='main__gift-text'>отдела продаж и CRM системы</p>
+                    <article className='main__flex'>
+                        <span className='main__gift-span'></span>
+                        <h3 className='main__gift-title'>Skype Аудит</h3>
+                        <p className='main__gift-text'>отдела продаж и CRM системы</p>
                     </article>
-                    <article>
-                    <h3 className='main__gift-title'>35 дней</h3>
-                    <p className='main__gift-text'>использования CRM</p>
+                    <article className='main__flex'>
+                        <span className='main__gift-span'></span>
+                        <h3 className='main__gift-title month'>Месяц аmoCRM</h3>
+                        <h3 className='main__gift-title days'>35 дней</h3>
+                        <p className='main__gift-text'>использования CRM</p>
                     </article>
                 </div>
                 <button className='main__button link'>Получить консультацию</button>
