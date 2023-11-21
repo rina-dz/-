@@ -67,3 +67,50 @@
     height: 20px;
     margin: 0 0 0 30px;
 }
+
+@media screen and (max-width: 550px) {
+    .header {
+        margin: 20px auto;
+        background-color: #0E1014;
+    }
+
+    .header__logo-container {
+        visibility: hidden;
+        display: none;
+    }
+
+    .header__navigation {
+        margin: 0 auto;
+        align-self: center;
+    }
+
+    .header__link {
+        color: #E4E5EA;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        margin: 0 0 0 13px;
+    }
+
+    .header__link:last-child {
+        visibility: hidden;
+        display: none;
+    }
+
+    .header__link:first-child {
+        margin: 0;
+    }
+
+    .header__tel {
+        visibility: hidden;
+        display: none;
+    }
+
+    .header__images {
+        visibility: hidden;
+        display: none;
+    }
+}

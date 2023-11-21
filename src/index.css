@@ -18,7 +18,8 @@ code {
 
 .link {
   transition: opacity 0.1s Ease-out;
-    cursor: pointer;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .link:hover {

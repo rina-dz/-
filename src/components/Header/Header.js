@@ -16,11 +16,11 @@ function Header() {
             <p className='header__text'>крупный интегратор CRM в Росcии и ещё 8 странах</p>
         </div>
       <div className='header__navigation'>
-        <a className='header__link link'>Услуги</a>
-        <a className='header__link link'>Виджеты</a>
-        <a className='header__link link'>Интеграции</a>
-        <a className='header__link link'>Кейсы</a>
-        <a className='header__link link'>Сертификаты</a>
+        <a className='header__link link' target="_blank" rel="noreferrer" href='https://www.google.ru/'>Услуги</a>
+        <a className='header__link link' target="_blank" rel="noreferrer" href='https://www.google.ru/'>Виджеты</a>
+        <a className='header__link link' target="_blank" rel="noreferrer" href='https://www.google.ru/'>Интеграции</a>
+        <a className='header__link link' target="_blank" rel="noreferrer" href='https://www.google.ru/'>Кейсы</a>
+        <a className='header__link link' target="_blank" rel="noreferrer" href='https://www.google.ru/'>Сертификаты</a>
       </div>
       <p className='header__tel'>+7 555 555-55-55</p>
       <img className='header__images link' src={telegram} alt='telegram' />
