@@ -1,0 +1,137 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 105px auto 69px;
+    max-width: 1140px;
+}
+
+.main__title-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.main__title {
+    width: 362px;
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin: 0 auto 0 0;
+}
+
+.main__colored-title {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #FCB045 36.99%, #FF3F78 100%);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: left;
+    margin: 0 auto 30px 0;
+}
+
+.main__text {
+    width: 275px;
+    text-align: left;
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto auto 0;
+}
+
+.main__gifts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 0;
+    padding: 0;
+}
+
+.main__gifts-title {
+    width: 300px;
+    color: #E4E5EA;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 40px auto;
+}
+
+.main__gifts-span {
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.main__gift-container {
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+    grid-template-rows: repeat(2, 68px);
+    column-gap: 31px;
+    row-gap: 30px;
+    margin: 0 0 61px auto;
+    padding: 0;
+}
+
+.main__gift-title {
+    color: #E4E5EA;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin: 0 0 6px auto;
+    width: 140px;
+}
+
+.main__gift-text {
+    color: #E4E5EA;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.main__button {
+    color: #E4E5EA;
+    text-align: center;
+    justify-self: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    box-shadow: none;
+    border: none;
+    width: 262px;
+    height: 61px;
+    background-color: #4077F3;
+}
