@@ -16,24 +16,26 @@ function Main() {
                 <div className='main__gift-container'>
                     <article className='main__flex'>
                         <span className='main__gift-span'></span>
-                        <h3 className='main__gift-title widgets'>30 виджетов</h3>
-                        <h3 className='main__gift-title widget'>Виджеты</h3>
+                        <h3 className='main__gift-title mobile'>Skype Аудит</h3>
+                        <h3 className='main__gift-title desktop'>Виджеты</h3>
                         <p className='main__gift-text'>30 готовых решений</p>
                     </article>
                     <article className='main__flex'>
                         <span className='main__gift-span'></span>
-                        <h3 className='main__gift-title'>Dashboard</h3>
+                        <h3 className='main__gift-title mobile'>30 виджетов</h3>
+                        <h3 className='main__gift-title desktop'>Dashboard</h3>
                         <p className='main__gift-text'>с показателями вашего бизнеса</p>
                     </article>
                     <article className='main__flex'>
                         <span className='main__gift-span'></span>
-                        <h3 className='main__gift-title'>Skype Аудит</h3>
+                        <h3 className='main__gift-title mobile'>Dashboard</h3>
+                        <h3 className='main__gift-title desktop'>Skype Аудит</h3>
                         <p className='main__gift-text'>отдела продаж и CRM системы</p>
                     </article>
                     <article className='main__flex'>
                         <span className='main__gift-span'></span>
-                        <h3 className='main__gift-title month'>Месяц аmoCRM</h3>
-                        <h3 className='main__gift-title days'>35 дней</h3>
+                        <h3 className='main__gift-title mobile'>Месяц аmoCRM</h3>
+                        <h3 className='main__gift-title desktop'>35 дней</h3>
                         <p className='main__gift-text'>использования CRM</p>
                     </article>
                 </div>

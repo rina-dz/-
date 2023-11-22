@@ -23,9 +23,9 @@ function Header() {
         <a className='header__link link' target="_blank" rel="noreferrer" href='https://www.google.ru/'>Сертификаты</a>
       </div>
       <p className='header__tel'>+7 555 555-55-55</p>
-      <img className='header__images link' src={telegram} alt='telegram' />
-      <img className='header__images link' src={viber} alt='viber' />
-      <img className='header__images link' src={whatsapp} alt='whatsapp' />
+      <a target="_blank" rel="noreferrer" href='https://web.telegram.org/'><img className='header__images link' src={telegram} alt='telegram' /></a>
+      <a target="_blank" rel="noreferrer" href='https://www.viber.com/ru/'><img className='header__images link' src={viber} alt='viber' /></a>
+      <a target="_blank" rel="noreferrer" href='https://www.whatsapp.com/'><img className='header__images link' src={whatsapp} alt='whatsapp' /></a>
     </header>
   );
 }
