@@ -1,0 +1,115 @@
+.footer {
+    display: flex;
+    margin: 0 auto 0;
+    padding: 55px 0 20px;
+    max-width: 1140px;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-rows: repeat(6, max-content);
+    grid-template-columns: repeat(2, min-content);
+    grid-auto-flow: column;
+    row-gap: 10px;
+    column-gap: 52px;
+    padding: 0;
+    margin: 0 46px 0 0;
+}
+
+.footer__title {
+    grid-column: span 2;
+    text-align: left;
+    color: #656566;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.footer__link {
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.footer__contacts-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-items: end;
+    list-style-type: none;
+    margin-left: 79px;
+}
+
+.footer__number {
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.footer__icons-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.footer__icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 10px;
+}
+
+.footer__adress {
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.footer__copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 70px 0 0;
+}
+
+.footer__copyright-text {
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.footer__copyright-link {
+    color: #E4E5EA;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
