@@ -122,10 +122,11 @@
 
 @media screen and (max-width: 1200px) {
     .footer {
-        padding: 41px 0 0;
+        padding: 45px 0 0;
         margin-bottom: 87px;
         max-width: 300px;
         flex-direction: column;
+        background-color: #0E1014;
     }
 
     .footer__title {
