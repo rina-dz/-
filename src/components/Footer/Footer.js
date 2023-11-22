@@ -17,7 +17,7 @@ function Footer() {
             <ul className='footer__container'>
                 <h4 className='footer__title'>Меню</h4>
                 <a className='footer__link link' target="_blank" rel="noreferrer"
-                    href='https://www.google.ru/'><li>Расчёт стоимости</li></a>
+                    href='https://www.google.ru/'><li>Расчёт <br className='footer__br' />стоимости</li></a>
                 <a className='footer__link link' target="_blank" rel="noreferrer"
                     href='https://www.google.ru/'><li>Услуги</li></a>
                 <a className='footer__link link' target="_blank" rel="noreferrer"
@@ -27,9 +27,9 @@ function Footer() {
                 <a className='footer__link link' target="_blank" rel="noreferrer"
                     href='https://www.google.ru/'><li>Наши клиенты</li></a>
                 <a className='footer__link link' target="_blank" rel="noreferrer"
-                    href='https://www.google.ru/'><li>Кейсы</li></a>
+                    href='https://www.google.ru/'><li>Благодарность <br className='footer__br' />клиентов</li></a>
                 <a className='footer__link link' target="_blank" rel="noreferrer"
-                    href='https://www.google.ru/'><li>Благодарственные письма</li></a>
+                    href='https://www.google.ru/'><li>Кейсы</li></a>
                 <a className='footer__link link' target="_blank" rel="noreferrer"
                     href='https://www.google.ru/'><li>Сертификаты</li></a>
                 <a className='footer__link link' target="_blank" rel="noreferrer"
@@ -52,11 +52,11 @@ function Footer() {
                     </li></a>
                 </div>
                 <a className='footer__adress link' target="_blank" rel="noreferrer" href='https://www.google.com/maps/place/%D0%9F%D1%83%D1%82%D0%B5%D0%B2%D0%BE%D0%B9+%D0%BF%D1%80-%D0%B4,+3%D0%A11,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+127410/@55.873427,37.572755,17z/data=!3m1!4b1!4m6!3m5!1s0x46b5370d42c055a3:0xfe62d1376599cb4c!8m2!3d55.873427!4d37.5753299!16s%2Fg%2F11j9m76z8b?hl=ru&entry=ttu'><li>Москва, Путевой проезд 3с1, к 902</li></a>
-                    <div className='footer__copyright'>
-                        <p className='footer__copyright-text'>©WELBEX 2022. Все права защищены.</p>
-                        <a className='footer__copyright-link link' target="_blank" rel="noreferrer"
-                            href='https://www.google.ru/'> Политика конфиденциальности</a>
-                    </div>
+                <div className='footer__copyright'>
+                    <p className='footer__copyright-text'>©WELBEX 2022. Все права защищены.</p>
+                    <a className='footer__copyright-link link' target="_blank" rel="noreferrer"
+                        href='https://www.google.ru/'> Политика конфиденциальности</a>
+                </div>
             </ul>
         </footer>
     );

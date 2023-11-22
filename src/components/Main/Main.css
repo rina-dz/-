@@ -156,7 +156,7 @@
     .main {
         display: flex;
         flex-direction: column;
-        margin: 0 auto 15px;
+        margin: 0 auto 0;
         max-width: 320px;
     }
 
