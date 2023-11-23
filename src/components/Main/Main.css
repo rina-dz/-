@@ -10,11 +10,11 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 25px;
 }
 
 .main__title {
-    width: 362px;
+    width: 380px;
     color: #E4E5EA;
     font-family: Montserrat;
     font-size: 48px;
@@ -56,7 +56,7 @@
     flex-direction: column;
     align-items: end;
     margin: 0;
-    padding: 0;
+    padding: 0 25px 0 0;
 }
 
 .main__gifts-title {
@@ -152,7 +152,7 @@
     background-color: #4077F3;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 580px) {
     .main {
         display: flex;
         flex-direction: column;
@@ -163,6 +163,7 @@
 
     .main__title-container {
         margin-bottom: 45px;
+        padding: 0;
     }
 
     .main__title {
@@ -183,6 +184,7 @@
 
     .main__gifts-container {
         align-items: start;
+        padding: 0;
     }
 
     .main__gifts-title {
@@ -245,5 +247,62 @@
     .main__button {
         display: none;
         visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width: 581px) {
+    .main {
+        margin: 75px auto 60px;
+    }
+
+    .main__title {
+        width: 285px;
+        font-size: 36px;
+        margin: 0;
+    }
+
+    .main__colored-title {
+        width: 285px;
+        font-size: 36px;
+        margin: 0 0 15px;
+    }
+
+    .main__text {
+        width: 285px;
+        margin: 0;
+    }
+
+    .main__gifts-title {
+        font-size: 18px;
+        margin: 0 0 20px 14px;
+        text-align: right;
+        width: 250px;
+    }
+
+    .main__gift-container {
+        grid-template-columns: repeat(2, 115px);
+        grid-template-rows: repeat(2, 55px);
+        column-gap: 10px;
+        row-gap: 10px;
+        margin: 0 0 40px 14px;
+    }
+
+    .main__flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__gift-title {
+        width: 115px;
+        margin: 0 0 5px 0;
+        font-size: 13px;
+        letter-spacing: 0.65px;
+    }
+
+    .main__gift-text {
+        width: 115px;
+        font-size: 12px;
+        letter-spacing: 0.65px;
     }
 }

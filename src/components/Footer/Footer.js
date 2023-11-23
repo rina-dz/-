@@ -10,7 +10,7 @@ function Footer() {
             <ul className='footer__container'>
                 <h4 className='footer__title'>О компании</h4>
                 <a className='footer__link link' target="_blank" rel="noreferrer"
-                    href='https://www.google.ru/'><li>Партнёрская программа</li></a>
+                    href='https://www.google.ru/'><li>Партнёрская <br className='footer__br' />программа</li></a>
                 <a className='footer__link link' target="_blank" rel="noreferrer"
                     href='https://www.google.ru/'><li>Вакансии</li></a>
             </ul>

@@ -11,13 +11,14 @@
     display: block;
     Width: 100%;
     Height: 100%;
+    object-fit: cover;
 }
 
 .background__mobile {
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 580px) {
     .background {
         top: 60px;
     }
@@ -25,8 +26,9 @@
     .background__mobile {
         display: block;
         margin: 0 auto 0;
-        Width: 320px;
+        Width: 100%;
         Height: 448px;
+        object-fit: cover;
     }
 
     .background__desktop {
